@@ -147,7 +147,6 @@ void loop() {
         float wh = watt * (1.0 / 60.0);  // consumo em Wh por minuto
         totalWh[i] += wh;
         somaWh += wh;
-        Serial.println(wh);
       }
     }
 
